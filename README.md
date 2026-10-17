@@ -16,7 +16,12 @@ Resulta de gran relevancia porque esta biblioteca no es solo un repositorio de l
 
 ## Planificación
 
-Se estableció un cronograma de trabajo estructurado bajo metodologías ágiles divididas en Sprints. Se garantizó una actuación responsable, ética y segura durante la interacción con los usuarios, el levantamiento de testimonios en el sitio y el manejo de la información pública de la institución (basado en sus canales de difusión oficiales como Instagram y su canal de WhatsApp).
+Se estableció un cronograma de trabajo estructurado bajo metodologías ágiles divididas en Sprints. Para la interacción con la comunidad y el levantamiento de datos en la Biblioteca de las Artes, el equipo aplicó un protocolo ético y seguro centrado en las siguientes pautas:
+
+- **Seguridad personal y respeto al espacio:** Las visitas de campo se programaron en horarios permitidos y zonas de libre acceso, cumpliendo con las normas de la institución y respetando la tranquilidad de los lectores.
+- **Consentimiento informado y anonimización:** Se informó a los participantes el propósito estrictamente académico del proyecto antes de cada entrevista. Se garantizó el anonimato de las personas mediante identificadores (ej. *Participante 01*, *Madre de familia 01*) para proteger sus datos personales.
+- **Protección de menores de edad:** En las interacciones asociadas a la Sala Ría y el cine infantil de los sábados, se aplicaron encuestas y diálogos directos con sus padres o tutores legales, sin registrar fotografías ni datos identificables de los niños.
+- **Uso ético e integridad de la información:** Los datos y testimonios se mantuvieron fieles a la realidad observada, utilizándose de forma agregada únicamente para los fines de diseño y desarrollo web del proyecto.
 
 ---
 
@@ -51,7 +56,7 @@ Se evaluaron tres alternativas gratuitas de [HTML5 UP](https://html5up.net/):
 
 ### 4. Selección y justificación de la plantilla
 * **Plantilla Seleccionada:** [Landed](https://html5up.net/landed)
-* **Justificación:** Se selecciona *Landed* porque su diseño modular se alinea perfectamente con las necesidades del evento y el *storytelling* cultural de la Biblioteca de las Artes. Permite estructurar de forma jerárquica las secciones informativas, integrar galerías de imágenes de los talleres y la Sala Ría, y mantener una adaptabilidad (*responsive design*) óptima tanto en computadoras como en dispositivos móviles.
+* **Justificación:** Se selecciona *Landed* porque su diseño modular se alinea perfectamente con las necesidades del evento (*comunicar la interacción de la comunidad con la Biblioteca de las Artes mediante storytelling visual*). Permite estructurar de forma jerárquica las secciones informativas, integrar galerías de imágenes de los talleres y la Sala Ría, y mantener una adaptabilidad (*responsive design*) impecable y una gran facilidad de personalización para visualizarse correctamente en computadoras y dispositivos móviles.
 
 ---
 
@@ -72,4 +77,4 @@ Se evaluaron tres alternativas gratuitas de [HTML5 UP](https://html5up.net/):
 
 * HTML5 UP. *Landed Template*. Disponible en: [https://html5up.net/landed](https://html5up.net/landed)
 * Biblioteca de las Artes. Perfil oficial de Instagram: [@bibliouartes](https://www.instagram.com/bibliouartes)
-* Biblioteca de las Artes. Canal oficial de WhatsApp para difusión de talleres y agenda cultural.
+* Biblioteca de las Artes. Canal oficial de WhatsApp para difusión de talleres y agenda cultural.(https://whatsapp.com/channel/0029VarUfghHltYImKMChr0y)
