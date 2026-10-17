@@ -31,11 +31,7 @@ En esta fase se diseñó la pauta de entrevistas y encuestas aplicadas a los vis
   * *¿Consideras que el espacio fomenta la participación comunitaria y reduce el uso excesivo de pantallas en los jóvenes y niños?* (Cerrada)
   * *¿Qué te gustaría encontrar en un sitio web interactivo de la biblioteca?* (Abierta)
 
----
-
-## Implementación
-
-### 1. Organización del contenido (Sprint 1)
+### 2. Organización del contenido (Sprint 1)
 A partir de la información recopilada en las entrevistas de campo, se estructuraron las secciones definitivas para la landing page:
 
 | Nombre de la Sección | Propósito | Datos que se presentarán |
@@ -47,24 +43,33 @@ A partir de la información recopilada en las entrevistas de campo, se estructur
 | **Voces de la Comunidad** | Transmitir empatía y validación real mediante *storytelling* visual. | Testimonios resumidos de estudiantes, diseñadores y madres de familia sobre el impacto positivo del lugar. |
 | **Contacto y Ubicación** | Proveer información práctica para fomentar la visita presencial. | Horarios, ubicación en el centro de Guayaquil, enlaces a redes sociales y créditos de desarrollo. |
 
-### 2. Análisis comparativo de plantillas (Sprint 1)
+### 3. Análisis comparativo de plantillas (Sprint 1)
 Se evaluaron tres alternativas gratuitas de [HTML5 UP](https://html5up.net/):
 1. **Twenty:** Orientada a blogs o sitios corporativos con un flujo lineal. Su navegación limita la integración modular de bloques dinámicos y llamadas a la acción enriquecidas.(https://html5up.net/twenty)
 2. **Helios:** Diseñada como portafolio o galería en cuadrícula. Su estructura rígida dificulta la lectura fluida de textos largos y testimonios narrativos. (https://html5up.net/helios)
 3. **Landed:** Plantilla moderna de una sola página (*single-page scrolling*), altamente responsiva, estructurada en bloques verticales limpios con efectos visuales (*parallax*), secciones de características por iconos y áreas ideales para testimonios.(https://html5up.net/landed)
 
-### 3. Selección y justificación de la plantilla
+### 4. Selección y justificación de la plantilla
 * **Plantilla Seleccionada:** [Landed](https://html5up.net/landed)
 * **Justificación:** Se selecciona *Landed* porque su diseño modular se alinea perfectamente con las necesidades del evento y el *storytelling* cultural de la Biblioteca de las Artes. Permite estructurar de forma jerárquica las secciones informativas, integrar galerías de imágenes de los talleres y la Sala Ría, y mantener una adaptabilidad (*responsive design*) óptima tanto en computadoras como en dispositivos móviles.
 
 ---
 
+## Implementación
+
+(Sección reservada para la incorporación de los archivos HTML, CSS, recursos multimedia y commits descriptivos en el repositorio durante el Sprint 2).
+
+
+---
+
 ## Despliegue
-*(Sección reservada para la verificación del funcionamiento del sitio publicado mediante GitHub Pages y sus enlaces correspondientes)*.
+
+(Sección reservada para la verificación del funcionamiento del sitio publicado mediante GitHub Pages y sus enlaces correspondientes).
 
 ---
 
 ## Bibliografía
+
 * HTML5 UP. *Landed Template*. Disponible en: [https://html5up.net/landed](https://html5up.net/landed)
 * Biblioteca de las Artes. Perfil oficial de Instagram: [@bibliouartes](https://www.instagram.com/bibliouartes)
 * Biblioteca de las Artes. Canal oficial de WhatsApp para difusión de talleres y agenda cultural.
