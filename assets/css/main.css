@@ -4109,3 +4109,27 @@ input, select, textarea {
 					}
 
 	}
+
+/* ==========================================================
+   Personalización visual para la Biblioteca de las Artes
+   Sprint 2 - Identidad cultural y artística
+   ========================================================== */
+
+/* Cambiar el color de acento principal de los botones y elementos interactivos */
+.button.primary, 
+input[type="submit"].primary, 
+input[type="button"].primary, 
+button.primary {
+    background-color: #2c3e50 !important; /* Azul institucional sobrio */
+}
+
+.button.primary:hover, 
+input[type="submit"].primary:hover, 
+input[type="submit"]:hover {
+    background-color: #34495e !important;
+}
+
+/* Consistencia visual en los títulos principales y la cabecera */
+#banner h2, #header h1 a {
+    letter-spacing: 0.05em;
+}
