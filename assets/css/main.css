@@ -4179,3 +4179,12 @@ header.major:after {
     background: var(--brand-yellow) !important;
     height: 0.25em !important;
 }
+
+/* 6. Enfoque de campos de formulario */
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+    border-color: var(--brand-magenta) !important;
+}
