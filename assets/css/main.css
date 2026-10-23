@@ -4165,4 +4165,17 @@ input[type="button"]:hover {
     color: var(--brand-magenta) !important;
 }
 
+/* 4. Enlaces del sitio */
+a {
+    color: var(--brand-magenta);
+}
 
+a:hover {
+    color: var(--brand-dark) !important;
+}
+
+/* 5. Línea decorativa del título */
+header.major:after {
+    background: var(--brand-yellow) !important;
+    height: 0.25em !important;
+}
