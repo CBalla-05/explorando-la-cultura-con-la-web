@@ -4115,21 +4115,35 @@ input, select, textarea {
    Sprint 2 - Identidad cultural y artística
    ========================================================== */
 
-/* Cambiar el color de acento principal de los botones y elementos interactivos */
-.button.primary, 
+/* Variables con la paleta de colores oficial */
+:root {
+    --brand-yellow: #F4C430;   /* Amarillo institucional */
+    --brand-magenta: #D93873;  /* Magenta / Rosa Artes (Acento destacado) */
+    --brand-dark: #1F2421;     /* Texto oscuro para contraste visual */
+    --brand-bg: #FAF9F6;       /* Fondo claro tipo papel/lectura */
+}
+
+/* 1. Fondo general adaptado */
+body, #page-wrapper {
+    background-color: var(--brand-bg) !important;
+    color: var(--brand-dark);
+}
+
+/* 2. Botones Primarios (Ajustado en Magenta con texto blanco para legibilidad alta) */
 input[type="submit"].primary, 
+input[type="reset"].primary, 
 input[type="button"].primary, 
-button.primary {
-    background-color: #2c3e50 !important; /* Azul institucional sobrio */
+.button.primary {
+    background-color: var(--brand-magenta) !important;
+    color: #ffffff !important;
+    box-shadow: none !important;
+    border: none;
 }
 
-.button.primary:hover, 
 input[type="submit"].primary:hover, 
-input[type="submit"]:hover {
-    background-color: #34495e !important;
-}
-
-/* Consistencia visual en los títulos principales y la cabecera */
-#banner h2, #header h1 a {
-    letter-spacing: 0.05em;
+input[type="reset"].primary:hover, 
+input[type="button"].primary:hover, 
+.button.primary:hover {
+    background-color: #b82a5c !important; /* Magenta un poco más oscuro al pasar el cursor */
+    color: #ffffff !important;
 }
