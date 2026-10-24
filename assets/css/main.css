@@ -1,5 +1,15 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Nunito:wght@400;600;700&display=swap");
+
+/* Paleta tomada del logo de la Biblioteca de las Artes */
+:root {
+	--amarillo: #F7BF01;
+	--coral: #ED4A52;
+	--coral-oscuro: #C93440;
+	--coral-hover: #A82A34;
+	--tinta: #1F2421;
+	--papel: #FAF9F6;
+}
 
 /*
 	Landed by HTML5 UP
@@ -99,9 +109,9 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #1F2421;
-		font-family: "Inter", "Open Sans", Helvetica, Arial, sans-serif;
-		font-size: 15pt;
-		font-weight: 300;
+		font-family: "Nunito", "Open Sans", Helvetica, Arial, sans-serif;
+		font-size: 13pt;
+		font-weight: 400;
 		line-height: 1.75em;
 	}
 
@@ -111,7 +121,7 @@ input, select, textarea {
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #D93873;
+		color: var(--coral-oscuro);
 		text-decoration: none;
 	}
 
@@ -135,8 +145,8 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #1F2421;
-		font-weight: 300;
-		line-height: 1em;
+		font-weight: 700;
+		line-height: 1.1em;
 		margin: 0 0 1em 0;
 	}
 
@@ -194,7 +204,7 @@ input, select, textarea {
 		}
 
 	blockquote {
-		border-left: solid 4px #D93873;
+		border-left: solid 4px var(--coral-oscuro);
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 2em;
@@ -361,7 +371,7 @@ input, select, textarea {
 	}
 
 		header.major:after {
-			background: #F4C430;
+			background: var(--amarillo);
 			content: '';
 			display: inline-block;
 			height: 0.25em;
@@ -415,7 +425,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #D93873;
+			border-color: var(--coral-oscuro);
 		}
 
 	select {
@@ -473,15 +483,15 @@ input, select, textarea {
 	}
 
 		.button:hover {
-			box-shadow: inset 0 0 0 1px #D93873 !important;
-			color: #D93873 !important;
+			box-shadow: inset 0 0 0 1px var(--coral-oscuro) !important;
+			color: var(--coral-oscuro) !important;
 		}
 
 		input[type="submit"].primary,
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #D93873 !important;
+			background-color: var(--coral-oscuro) !important;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -490,7 +500,7 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #b82a5c !important;
+				background-color: var(--coral-hover) !important;
 				color: #ffffff !important;
 			}
 
@@ -512,7 +522,7 @@ input, select, textarea {
 		z-index: 100;
 	}
 
-		#header h1 {
+		#header #logo {
 			height: inherit;
 			left: 1.25em;
 			line-height: inherit;
@@ -650,8 +660,8 @@ input, select, textarea {
 		}
 
 			.spotlight .content .button:hover {
-				box-shadow: inset 0 0 0 1px #F4C430 !important;
-				color: #F4C430 !important;
+				box-shadow: inset 0 0 0 1px var(--amarillo) !important;
+				color: var(--amarillo) !important;
 			}
 
 		.spotlight.top .content, .spotlight.bottom .content {
@@ -660,9 +670,9 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		.spotlight.bottom .content { border-top: 0.35em solid #D93873; bottom: 0; }
+		.spotlight.bottom .content { border-top: 0.35em solid var(--coral-oscuro); bottom: 0; }
 		.spotlight.right .content {
-			border-left: 0.35em solid #F4C430;
+			border-left: 0.35em solid var(--amarillo);
 			height: 101%;
 			padding: 6em 3em;
 			right: 0;
@@ -723,7 +733,7 @@ input, select, textarea {
 	#footer a:hover,
 	.dropotron a:hover,
 	#navPanel a:hover {
-		color: #F4C430 !important;
+		color: var(--amarillo) !important;
 	}
 
 	a:focus-visible,
@@ -731,7 +741,7 @@ input, select, textarea {
 	input:focus-visible,
 	select:focus-visible,
 	textarea:focus-visible {
-		outline: 2px solid #F4C430;
+		outline: 2px solid var(--amarillo);
 		outline-offset: 2px;
 	}
 
@@ -855,7 +865,7 @@ input, select, textarea {
 		}
 
 		#footer .icons a.icon.alt:hover:before {
-			box-shadow: inset 0 0 0 1px #F4C430;
+			box-shadow: inset 0 0 0 1px var(--amarillo);
 		}
 
 /* Pie de página: créditos en línea */
@@ -1043,14 +1053,14 @@ input, select, textarea {
 
 
 /* ==========================================================
-   TIPOGRAFÍA: títulos con Poppins, texto y datos con Inter
+   TIPOGRAFÍA: títulos con Barlow Condensed, texto con Nunito
    ========================================================== */
 
 	h1, h2, h3, h4, h5, h6,
 	#logo, #titleBar .title {
-		font-family: "Poppins", "Montserrat", Helvetica, Arial, sans-serif;
-		font-weight: 500;
-		letter-spacing: -0.01em;
+		font-family: "Barlow Condensed", "Montserrat", Helvetica, Arial, sans-serif;
+		font-weight: 700;
+		letter-spacing: 0.01em;
 	}
 
 	h2 {
@@ -1078,7 +1088,7 @@ input, select, textarea {
 
 	/* Logo: queda completo dentro del círculo, con margen alrededor */
 	#banner .content .image {
-		background-color: #F7BF02;
+		background-color: var(--amarillo);
 		overflow: hidden;
 	}
 
@@ -1167,7 +1177,7 @@ input, select, textarea {
 
 			.spotlight.right .content {
 				border-left: 0;
-				border-top: 0.35em solid #F4C430;
+				border-top: 0.35em solid var(--amarillo);
 			}
 
 			.spotlight.bottom .content {
@@ -1232,3 +1242,61 @@ input, select, textarea {
 				margin-top: 0;
 			}
 	}
+
+/* ==========================================================
+   PERSONALIZACIÓN BIBLIOTECA DE LAS ARTES
+   Banner, secciones, tarjetas, accesibilidad
+   ========================================================== */
+
+	body, input, select, textarea { font-weight: 400; }
+	strong, b { font-weight: 700; }
+
+	/* Accesibilidad */
+	.skip-link { background: var(--amarillo); color: var(--tinta); left: -999px; padding: 0.6em 1em; position: absolute; top: 0; z-index: 10000; }
+	.skip-link:focus { left: 0; }
+	.sr-only { clip: rect(0 0 0 0); height: 1px; overflow: hidden; position: absolute; white-space: nowrap; width: 1px; }
+	a:focus-visible, .button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid var(--tinta); outline-offset: 2px; }
+	#footer a:focus-visible, .seccion-oscura a:focus-visible { outline-color: var(--amarillo); }
+
+	/* Logo del menú (ya no es h1: el h1 es el título de cada página) */
+	#logo a { border: 0; color: inherit; }
+
+	/* Títulos de página (h1) con el mismo aspecto que los h2 de la plantilla */
+	header.major h1 { font-size: 2.5em; letter-spacing: -0.01em; line-height: 1.1em; margin: 0 0 0.5em 0; text-transform: uppercase; }
+	header.major h1 + p, header.major h2 + p { font-size: 1.25em; line-height: 1.75em; margin-top: 0; }
+	h2, h3 { text-transform: uppercase; }
+	#sidebar h2 { font-size: 1.35em; }
+
+	/* Banner con la foto de la biblioteca y capa oscura para que el texto se lea */
+	#banner { background-color: var(--tinta); background-image: url("../../images/banner.jpg"); }
+	#banner:after { background-color: rgba(23, 24, 32, 0.8); }
+	#banner .content header h1 { color: #ffffff !important; font-size: 3em; margin: 0; text-transform: uppercase; }
+	#banner .content header p { color: #ffffff !important; }
+	#banner .content .actions { margin-top: 2em; }
+	#banner .content .button:not(.primary) { box-shadow: inset 0 0 0 2px #ffffff; color: #ffffff !important; }
+	#banner .content .button:not(.primary):hover { background-color: var(--amarillo) !important; box-shadow: inset 0 0 0 2px var(--amarillo); color: var(--tinta) !important; }
+	#banner .content .image img { border: 0.3em solid var(--amarillo); }
+
+	/* Secciones */
+	.seccion { padding: 5em 0; }
+	.seccion-amarilla { background: var(--amarillo); }
+	.seccion-oscura { background: var(--tinta); color: #ffffff; text-align: center; }
+	.seccion-oscura h2, .seccion-oscura strong { color: #ffffff; }
+	.seccion-oscura a:not(.button) { color: var(--amarillo); }
+	.seccion-oscura header.major:after { background: var(--coral); }
+
+	/* Tarjetas de la portada */
+	.tarjetas { display: grid; gap: 2em; grid-template-columns: repeat(auto-fit, minmax(17em, 1fr)); }
+	.tarjeta { background: #ffffff; border-radius: 0.75em; border-top: 0.4em solid var(--coral); box-shadow: 0 0.25em 1em rgba(0, 0, 0, 0.15); display: flex; flex-direction: column; overflow: hidden; }
+	.tarjeta img { aspect-ratio: 4 / 3; background: var(--coral); display: block; height: auto; object-fit: cover; width: 100%; }
+	.tarjeta .cuerpo { display: flex; flex: 1; flex-direction: column; padding: 1.5em; }
+	.tarjeta .cuerpo .button { margin-top: auto; text-align: center; }
+	.lista-simple { list-style: none; margin: 0 0 1.5em 0; padding: 0; }
+	.lista-simple li { border-bottom: 1px solid rgba(0, 0, 0, 0.12); font-size: 0.85em; padding: 0.35em 0; }
+
+	/* Actividades en páginas internas */
+	.actividad { border-bottom: 1px solid rgba(0, 0, 0, 0.15); margin: 0 0 3em 0; padding-bottom: 2em; }
+	.actividad img, img.foto { aspect-ratio: 3 / 2; background: var(--amarillo); border-radius: 0.5em; display: block; height: auto; margin-bottom: 1em; object-fit: cover; width: 100%; }
+	.actividad .datos { color: #4A5568; font-size: 0.85em; margin: 0; }
+	#sidebar ul { padding-left: 1.2em; }
+	#sidebar nav p { margin: 1em 0 0.3em 0; }
