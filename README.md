@@ -123,7 +123,17 @@ git push origin main
 
 ## Despliegue
 
-(Sección reservada para la verificación del funcionamiento del sitio publicado mediante GitHub Pages y sus enlaces correspondientes).
+* *Repositorio:* https://github.com/cballa-05/explorando-la-cultura-con-la-web
+* *Sitio publicado (GitHub Pages):* https://cballa-05.github.io/explorando-la-cultura-con-la-web/
+
+Publicación: Settings → Pages → Deploy from a branch → main / (root).
+
+| Comprobación en el sitio publicado | Resultado |
+| :--- | :---: |
+| La URL pública abre la portada | ☐ |
+| Estilos, tipografías e imágenes se ven igual que en local | ☐ |
+| Navegación entre las 4 páginas y anclas funcionan | ☐ |
+| Enlaces a redes oficiales funcionan | ☐ |
 
 ---
 
