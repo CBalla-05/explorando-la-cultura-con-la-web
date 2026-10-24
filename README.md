@@ -62,9 +62,63 @@ Se evaluaron tres alternativas gratuitas de [HTML5 UP](https://html5up.net/):
 
 ## Implementación
 
-(Sección reservada para la incorporación de los archivos HTML, CSS, recursos multimedia y commits descriptivos en el repositorio durante el Sprint 2).
+Se transformó la plantilla *Landed* en el sitio de la Biblioteca de las Artes y la Sala Ría. Se eliminó todo el contenido de demostración (textos *lorem ipsum*, `elements.html` e imágenes de la plantilla).
 
+### 1. Estructura del sitio
 
+| Página | Contenido | Aplicación de la plantilla |
+| :--- | :--- | :--- |
+| `index.html` | Portada: banner con logo, quiénes somos, 3 categorías de actividades, Sala Ría y encuesta de participación | Landing |
+| `left-sidebar.html` | **Talleres, música y teatro**: 9 talleres con descripción, público y lugar | Barra lateral izquierda con índice de la página |
+| `right-sidebar.html` | **Cine, lectura y charlas**: CineClub Guayacine, Cine Kids, Baúl Literario, Exploradores de Cuentos y charla magistral | Barra lateral derecha con índice y enlaces a redes |
+| `no-sidebar.html` | **Nosotros**: la biblioteca, Sala Ría, servicios, ubicación y contacto | Sin barra lateral |
+
+### 2. Cambios por archivo
+
+| Archivo | Qué se cambió o agregó |
+| :--- | :--- |
+| `index.html` | Se reescribió con `<main>`, `<section>`, `<article>`, `<header>`, `<nav>` y `<footer>`; un solo `<h1>`; menú con enlaces que existen; encuesta con `<label>`; `lang="es"`, `meta description` y favicon; enlace «Saltar al contenido». |
+| `left-sidebar.html`, `right-sidebar.html`, `no-sidebar.html` | Se reemplazó el contenido de demostración por información real; se agregaron `<aside>` y `<nav>` con índice, `<article>` por actividad, imágenes con `alt` y `loading="lazy"`. |
+| `assets/css/main.css` | Variables de color del logo, tipografías, banner amarillo, secciones, tarjetas, estilos de foco visible y utilidades de accesibilidad. |
+| `images/` | Se eliminaron imágenes de la plantilla; se agregaron fotos y afiches propios; se optimizó el logo (de 652 KB a 96 KB). |
+| `elements.html` | Eliminado (página de demostración de la plantilla). |
+
+### 3. Identidad visual
+
+* **Colores (tomados del logo):** amarillo `#F7BF01`, rojo coral `#ED4A52`, coral oscuro `#C93440` para botones con texto blanco, y tinta `#1F2421` para texto.
+* **Tipografías:** *Barlow Condensed* (títulos, parecida a las letras del logo) y *Nunito* (texto, redondeada y amable para público infantil), vía Google Fonts.
+* **Contraste calculado (WCAG):** texto oscuro sobre amarillo 9.3:1, texto blanco sobre coral oscuro 5.2:1, texto blanco sobre fondo oscuro 15.8:1. Los tres superan el mínimo AA (4.5:1); el coral claro `#ED4A52` se usa solo en bordes y detalles, no para texto.
+
+### 4. Ajustes respecto al plan del Sprint 1
+
+* La sección *Voces de la Comunidad* no se publicó, porque los testimonios se recogieron con anonimato y todavía no se redactaron para el sitio.
+* *Contacto y ubicación* y *Zonas y servicios* se integraron en la página **Nosotros**.
+* La encuesta de la portada es demostrativa: el formulario aún no envía datos a ningún servidor.
+
+### 5. Control de versiones
+
+| N.º | Autor | Mensaje del commit |
+| :-: | :--- | :--- |
+| 1 | César | `style: aplica paleta del logo, tipografías y estilos de tarjetas, banner y accesibilidad` |
+| 2 | Fátima | `chore: elimina elements.html e imágenes de plantilla y agrega imágenes de la biblioteca` |
+| 3 | César | `feat: reestructura index.html con estructura semántica, navegación y actividades reales` |
+| 4 | Fátima | `feat: convierte left-sidebar.html en talleres, música y teatro con información real` |
+| 5 | César | `feat: convierte right-sidebar.html en cine, lectura y charlas con información real` |
+| 6 | Fátima | `feat: convierte no-sidebar.html en página Nosotros con ubicación y contacto` |
+| 7 | César | `docs: completa implementación del README con cambios, identidad visual y commits` |
+| 8 | Fátima | `docs: registra verificación del despliegue en GitHub Pages y URLs finales` |
+
+### 6. Verificaciones realizadas
+
+| Verificación | Resultado |
+| :--- | :---: |
+| Los enlaces internos y anclas del menú llevan a secciones existentes | ☐ |
+| Todas las imágenes cargan (sin íconos rotos) | ☐ |
+| Cada página tiene un solo `<h1>` y encabezados en orden | ☐ |
+| Se puede navegar con teclado y se ve el foco | ☐ |
+| Vista correcta en celular (ancho de 375 px) | ☐ |
+| Los enlaces a Instagram, WhatsApp y Linktree abren | ☐ |
+git push origin main
 ---
 
 ## Despliegue
